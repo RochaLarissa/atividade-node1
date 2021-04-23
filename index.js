@@ -3,7 +3,7 @@ const app = express(); //iniciando o express
 
 //criando a rota inicial
 app.get("/", function(req,res){
-    res.send("<h1>Trabalho de Desenvolvimento de Software em nuvem</h1> <br>Seja bem vindo!!!!");
+    res.send("<h1> Bem vindo!! Trabalho de Desenvolvimento de Software em nuvem</h1> <br>Seja bem vindo!!!!");
 })
 
 //rota dos membros da equipe
